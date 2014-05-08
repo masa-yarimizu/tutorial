@@ -1,1 +1,26 @@
-github へのファイルの上げ方。
+GitHub へのファイルの上げ方。
+
+1)GitHubに登録しよう！
+
+2) gitをインストールしよう！
+
+
+1）2）ができたなら準備おｋ
+
+○手順
+GitHubにファイルを上げる手順は2通りある。
+GitHub上でアップロードする方法とローカルからコマンドラインでアップする方法である。
+ここでは後者を説明する。
+
+1）リポジトリを作る。以下コマンド、適当なディレクトリ下で行う。
+
+mkdir <リポジトリ名>
+cd <リポジトリ名>
+git init
+//ここで何かファイルを作ってください。ここでは仮にtest.txtとします。
+git add test.txt
+git commit -m "初めてのGitHub"
+git remote add origin git@github.com:<アカウント名>/<リポジトリ名>.git
+git push -u origin master
+
+これでGitHubにファイルをアップロードできたはず。
