@@ -28,3 +28,8 @@ git push -u origin master
 
 既存のレポジトリにファイルをアップロードする場合は、
 git commit -m "" の後にgit push origin master でいい
+
+* origin はレポジトリの場所（URL）の別名を表している。
+origin がどこを指しているか確認したい場合は
+git config --list でわかる。
+master はブランチの名前。
