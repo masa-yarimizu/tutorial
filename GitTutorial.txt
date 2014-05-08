@@ -17,6 +17,7 @@ GitHub上でアップロードする方法とローカルからコマンドラインでアップする方法である
 mkdir <リポジトリ名>
 cd <リポジトリ名>
 git init
+2）ファイルをアップロードする。
 //ここで何かファイルを作ってください。ここでは仮にtest.txtとします。
 git add test.txt
 git commit -m "初めてのGitHub"
@@ -24,3 +25,6 @@ git remote add origin git@github.com:<アカウント名>/<リポジトリ名>.git
 git push -u origin master
 
 これでGitHubにファイルをアップロードできたはず。
+
+既存のレポジトリにファイルをアップロードする場合は、
+git commit -m "" の後にgit push origin master でいい
