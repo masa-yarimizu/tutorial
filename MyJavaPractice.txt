@@ -1,0 +1,5 @@
+Java で文字コードのエラーが出た！
+
+こんな感じでコンパイル時にエンコーディングを指定してあげればOK
+javac -encoding UTF-8 Test.java
+
