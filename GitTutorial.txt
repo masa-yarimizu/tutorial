@@ -27,6 +27,7 @@ git push -u origin master
 これでGitHubにファイルをアップロードできたはず。
 
 既存のレポジトリにファイルをアップロードする場合は、
+git clone <githubのレポジトリのurl>.git でレポジトリをクローンする。
 git commit -m "" の後にgit push origin master でいい
 
 * origin はレポジトリの場所（URL）の別名を表している。
